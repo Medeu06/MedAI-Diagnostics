@@ -15,10 +15,9 @@ export default function AboutPage() {
 
       <div className="bg-slate-900/80 p-5 rounded-xl border border-slate-800 text-xs space-y-2 text-slate-300">
         <h3 className="font-bold text-indigo-400 mb-2">Информация об авторе и стеке:</h3>
-        <div><strong>Разработчик:</strong> Медеу Сейдали</div>
+        <div><strong>Разработчик:</strong> Алина Аманбек </div>
         <div><strong>Тема:</strong> «Искусственный интеллект в диагностике и медицине»</div>
-        <div><strong>Стек технологий:</strong> React 18, React Router v6, Tailwind CSS, Vite</div>
-        <div><strong>Функционал:</strong> Возрастной фильтр (18+), учет биологического пола, алгоритм оценки рисков, видео-раздел.</div>
+        <div><strong>Функционал:</strong> Возрастной фильтр, учет биологического пола, алгоритм оценки рисков, видео-раздел.</div>
       </div>
     </div>
   );
