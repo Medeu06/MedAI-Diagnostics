@@ -1,1 +1,15 @@
-
+export const COMMON_SYMPTOMS = [
+  { id: 'headache', name: 'Головная боль', category: 'Неврология' },
+  { id: 'fever', name: 'Высокая температура (>37.5°C)', category: 'Общие' },
+  { id: 'cough', name: 'Кашель (сухой или с мокротой)', category: 'Дыхание' },
+  { id: 'chest_pain', name: 'Боль или давящее чувство в груди', category: 'Кардиология', redFlag: true },
+  { id: 'shortness_breath', name: 'Одышка / Затрудненное дыхание', category: 'Дыхание', redFlag: true },
+  { id: 'fatigue', name: 'Сильная слабость и усталость', category: 'Общие' },
+  { id: 'nausea', name: 'Тошнота или рвота', category: 'ЖКТ' },
+  { id: 'sore_throat', name: 'Боль в горле при глотании', category: 'ЛОР' },
+  { id: 'dizziness', name: 'Головокружение / Потеря равновесия', category: 'Неврология' },
+  { id: 'joint_pain', name: 'Боль в суставах или мышцах', category: 'Опорно-двигательный' },
+  { id: 'stomach_pain', name: 'Боль в животе', category: 'ЖКТ' },
+  { id: 'rash', name: 'Кожная сыпь или зуд', category: 'Дерматология' },
+  { id: 'palpitations', name: 'Учащенное сердцебиение', category: 'Кардиология' },
+];
