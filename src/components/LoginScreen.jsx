@@ -4,7 +4,7 @@ const USERS_STORAGE_KEY = 'medai_registered_users_v1';
 
 // Предустановленный аккаунт для быстрой проверки
 const DEFAULT_USERS = [
-  { login: 'medeu', password: '12345', fullName: 'Медеу Сейдали' },
+  { login: 'alina', password: '12345', fullName: 'Алина Аманбек' },
   { login: 'admin', password: 'admin', fullName: 'Администратор' }
 ];
 
@@ -101,7 +101,7 @@ export default function LoginScreen({ onLoginSuccess }) {
               type="text"
               value={login}
               onChange={(e) => setLogin(e.target.value)}
-              placeholder="Введите логин (например, medeu)"
+              placeholder="Введите логин (например, alina)"
               className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-white focus:outline-none focus:border-cyan-500"
               required
             />
@@ -144,7 +144,7 @@ export default function LoginScreen({ onLoginSuccess }) {
         {!isRegisterMode && (
           <div className="p-3 bg-slate-950/80 border border-slate-800 rounded-xl text-[11px] text-slate-400 flex items-center justify-between">
             <span>Тестовый вход:</span>
-            <span className="font-mono text-cyan-400">medeu / 12345</span>
+            <span className="font-mono text-cyan-400">alina / 12345</span>
           </div>
         )}
 
